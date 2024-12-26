@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+* {
+  font-family: 'Gugi', sans-serif;
+}
+
+.HeaderCmp {
+  margin-bottom: 50px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.ForTestCmp {
+  text-align: left;
+  font-size: small;
+  font-weight: lighter;
+  color: #41b883;
+}
+
+.IfTestCmp {
+  text-align: left;
+  font-size: small;
+  font-weight: lighter;
+  color: olive;
+}
+
+.CompositionTestCmp {
+  text-align: left;
+  font-size: small;
+  font-weight: lighter;
+  color: chocolate;
+}
+
+.APICallTestCmp {
+  text-align: left;
+  font-size: small;
+  font-weight: lighter;
+  color: purple;
+}
+
+.MenuCmp {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.dataTable {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.dataTable th {
+  width: 200px;
+  background: #f3f6f7;
+  font-weight: bold;
+  color: #369;
+  border-bottom: 3px solid #036;
+}
+
+.dataTable td {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.modal{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+
+  width: 400px;
+  text-align: center;
+  background: white;
+  border: 5px solid #036;
+}
+
+.modalContent {
+  text-align: left; 
+  margin-left: 20px;
+}
+
+.chart {
+  height: 500px;
+  width: 60%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
